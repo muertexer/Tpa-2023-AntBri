@@ -16,7 +16,7 @@ class Asistencia:
             print("{:<10} {:<15} {:<15}".format(i + 1, estudiante[0], estudiante[1]))
 
 
-# Create an object of the class
+
 mi_asistencia = Asistencia()
 mi_asistencia.AddEstudiante()
 mi_asistencia.mostrarPresentes()
